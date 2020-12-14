@@ -1,9 +1,6 @@
 
-# coding: utf-8
 
 # # Deep Neural Network for Image Classification: Application
-# 
-# When you finish this, you will have finished the last programming assignment of Week 4, and also the last programming assignment of this course! 
 # 
 # You will use the functions you'd implemented in the previous assignment to build a deep network, and apply it to cat vs non-cat classification. Hopefully, you will see an improvement in accuracy relative to your previous logistic regression implementation.  
 # 
@@ -46,7 +43,7 @@ np.random.seed(1)
 
 # ## 2 - Dataset
 # 
-# You will use the same "Cat vs non-Cat" dataset as in "Logistic Regression as a Neural Network" (Assignment 2). The model you had built had 70% test accuracy on classifying cats vs non-cats images. Hopefully, your new model will perform a better!
+# You will use the same "Cat vs non-Cat" dataset as in "Logistic Regression as a Neural Network". The model you had built had 70% test accuracy on classifying cats vs non-cats images. Hopefully, your new model will perform a better!
 # 
 # **Problem Statement**: You are given a dataset ("data.h5") containing:
 #     - a training set of m_train images labelled as cat (1) or non-cat (0)
